@@ -5,5 +5,5 @@ const path = require('path');
 //gh-pages
 
 function deploy(cb) {
-  ghPages.publish(path.join(process.cwd(), './build'), cb);
+  ghPages.publish(path.join(process.cwd(), './source'), cb);
 }
