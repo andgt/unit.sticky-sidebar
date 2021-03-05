@@ -331,7 +331,13 @@ img {
 	list-style-type: none;
 }
 
+.catalog__card-title {
+	margin: 0;
+}
+
 .catalog__card-link {
+	display: block;
+	margin: 0 0 10px 0;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 21px;
