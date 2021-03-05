@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Unit">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Unit. Интернет-магазин</title>
+</head>
+<body class="page-body">
+	<header class="header">
+		<div class="header__wrapper container">
+			<a class="header__logo-link logo" href="unit.html">
+				<img class="logo__img" src="img/logotype.svg" width="95" height="42" alt="Логотип интернет-магазина Unit">
+			</a>
+			<form class="header__form" action="#" method="get">
+				<label class="visually-hidden" for="search">Поиск по сайту</label>
+				<input class="header__search" type="search" name="search" id="search" placeholder="Поиск по сайту">
+				<button class="header__button-search button" type="button">Найти</button>
+			</form>
+			<nav class="header__navigation">
+				<ul class="header__list-navigation">
+					<li class="header__item-navigation">
+						<a class="header__navigation-link link" href="#">Вход</a>
+					</li>
+					<li class="header__item-navigation">
+						<a class="header__navigation-link link" href="#">Избранное</a>
+					</li>
+					<li class="header__item-navigation">
+						<a class="header__navigation-link link" href="#">Корзина</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main container">
+		<h1 class="visually-hidden">UNIT: Онлайн-маркет</h1>
+		<section class="main__sidebar">
+			<div class="main__sidebar-container">
+				<div class="main__sidebar-nav">
+					<ul class="nav__menu-list">
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Электроника</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Смартфоны</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Планшеты</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Наушники</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Смарт-часы</a>
+										</li>
+										<li class="nav__submenu-item">
+											<button class="nav__submenu-btn button" type="button" href="#">Показать все</button>
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Бытовая техника</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Холодильники</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Стиральные машинки</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Микроволновые печи</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Посудомоечные машины</a>
+										</li>
+										<li class="nav__submenu-item">
+											<button class="nav__submenu-btn button" type="button" href="#">Показать все</button>
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Компьютеры</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Материнские платы</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Видеокарты</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Процессоры</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Блоки питания</a>
+										</li>
+										<li class="nav__submenu-item">
+											<button class="nav__submenu-btn button" type="button" href="#">Показать все</button>
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Детям</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Мягкие игрушки</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Конструкторы</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Наборы для творчества</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Роботы и трансформеры</a>
+										</li>
+										<li class="nav__submenu-item">
+											<button class="nav__submenu-btn button" type="button" href="#">Показать все</button>
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Дом</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Бытовая химия</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Посуда</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Хозяйственный инвентарь</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Мебель</a>
+										</li>
+										<li class="nav__submenu-item">
+											<button class="nav__submenu-btn button" type="button" href="#">Показать все</button>
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Авто</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Оптика и свет</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Фильтры</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Электрика и зажигание</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Топливная система</a>
+										</li>
+										<li class="nav__submenu-item">
+											<button class="nav__submenu-btn button" type="button" href="#">Показать все</button>
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Красота и здоровье</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Маникюр</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Педикюр</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Косметика и парфюмерия</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Окрашивание волос</a>
+										</li>
+										<li class="nav__submenu-item">
+											<button class="nav__submenu-btn button" type="button" href="#">Показать все</button>
+										</li>
+									</ul>
+								</div>
+						</li>
+					</ul>
+					<ul class="nav__menu-list">
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Оплата и доставка</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Виды оплаты</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Виды доставки</a>
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="nav__menu-item">
+							<a class="nav__menu-link" href="#">Справка</a>
+								<div class="nav__submenu">
+									<ul class="nav__submenu-list">
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">О магазине</a>
+										</li>
+										<li class="nav__submenu-item">
+											<a class="nav__submenu-link" href="#">Частые вопросы</a>
+										</li>
+									</ul>
+								</div>
+						</li>
+					</ul>
+				</div>
+				<div class="main__banner">
+					<a class="main__banner-link" href="#">
+						<img class="main__banner-img" src="img/banner.jpg" width="255" height="234">
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="main__catalog">
+			<h2 class="visually-hidden">Список товаров</h2>
+			<ul class="catalog__list">
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/phones.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Смартфоны</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/tablets.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Планшеты</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/headphones.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Наушники</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/4ktv.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">4K телевизоры</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/smart-watch.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Смарт-часы</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/loudspeakers.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Умные колонки</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/phones.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Смартфоны</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/tablets.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Планшеты</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/headphones.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Наушники</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/4ktv.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">4K телевизоры</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/smart-watch.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Смарт-часы</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/loudspeakers.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Умные колонки</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/phones.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Смартфоны</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/tablets.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Планшеты</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/headphones.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Наушники</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/4ktv.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">4K телевизоры</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/smart-watch.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Смарт-часы</a>
+					</h3>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__card-link link" href="#">
+						<img class="catalog__img" src="img/loudspeakers.jpg" width="255" height="173" alt="Фото товара">
+					</a>
+					<h3 class="catalog__card-title">
+						<a class="catalog__card-link link" href="#">Умные колонки</a>
+					</h3>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrapper container">
+			<a class="footer__logo-link logo" href="unit.html">
+				<img class="logo__img" src="img/logotype.svg" width="95" height="42" alt="Логотип интернет-магазина Unit">
+			</a>
+			<ul class="footer__menu">
+				<li class="footer__menu-item">
+					<a class="footer__menu-link link" href="#">Главная</a>
+				</li>
+				<li class="footer__menu-item">
+					<a class="footer__menu-link link" href="#">Каталог</a>
+				</li>
+				<li class="footer__menu-item">
+					<a class="footer__menu-link link" href="#">Контакты</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
